@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://homutemu.example/sitemap.xml
+Sitemap: https://larry-kim-o-o.github.io/sitemap.xml
