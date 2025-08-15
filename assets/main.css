@@ -1,5 +1,5 @@
-/* Google Fonts Import */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap");
+/* Google Fonts Import - 일본어 최적화 폰트 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap");
 
 /* Custom CSS Variables */
 :root {
@@ -12,17 +12,59 @@
   --border-color: #e2e8f0;
 }
 
-/* Base Styles */
+/* Base Styles - 일본어 최적화 폰트 스택 */
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, sans-serif;
+  /* 일본 쇼핑 사이트 표준 폰트 스택 */
+  font-family: "Noto Sans JP",
+    /* Google Fonts - 일본어 최적화 */ "Hiragino Sans",
+    /* macOS 기본 */ "Hiragino Kaku Gothic ProN", /* macOS 기본 */ "Yu Gothic",
+    /* Windows 기본 */ "Yu Gothic UI", /* Windows 기본 */ "Meiryo",
+    /* Windows 기본 */ "MS PGothic", /* Windows 기본 */ "Osaka",
+    /* macOS 기본 */ "Takao", /* Linux 기본 */ "IPAexGothic",
+    /* Linux 기본 */ "IPAPGothic", /* Linux 기본 */ "VL PGothic",
+    /* Linux 기본 */ "Noto Sans CJK JP",
+    /* Google Fonts 백업 */ "Source Han Sans JP",
+    /* Adobe 폰트 */ "Hiragino Sans GB", /* 중국어 포함 */ "Microsoft YaHei",
+    /* 중국어 포함 */ "PingFang SC", /* 중국어 포함 */ "Helvetica Neue",
+    /* 영어 폰트 */ "Helvetica", /* 영어 폰트 */ "Arial",
+    /* 영어 폰트 */ "sans-serif"; /* 폴백 */
+
   line-height: 1.6;
   color: var(--text-primary);
   background-color: var(--bg-primary);
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* 제목용 폰트 클래스 */
+.font-heading {
+  font-family: "Inter", /* 영어 제목용 */ "Noto Sans JP",
+    /* 일본어 제목용 */ "Hiragino Sans", "Yu Gothic", "Meiryo", "Arial",
+    "sans-serif";
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.font-display {
+  font-family: "Inter", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Meiryo",
+    "Arial", "sans-serif";
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+/* 로고용 폰트 클래스 */
+.font-logo {
+  font-family: "Inter", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Meiryo",
+    "Arial", "sans-serif";
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 /* Smooth scrolling */
@@ -86,4 +128,23 @@ button:focus {
     font-size: 12pt;
     line-height: 1.4;
   }
+}
+
+/* 일본어 텍스트 최적화 */
+.japanese-text {
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: none;
+}
+
+/* 긴 일본어 텍스트 처리 */
+.long-text {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+/* 숫자와 영문 최적화 */
+.numbers-english {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
 }
