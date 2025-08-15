@@ -1,0 +1,99 @@
+<!-- Common Header Component -->
+<header class="border-b bg-white sticky top-0 z-50 shadow-sm">
+  <div
+    class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between gap-4"
+  >
+    <a
+      href="/"
+      class="flex items-center gap-2 hover:opacity-80 transition-opacity"
+    >
+      <img src="/assets/logo.png" alt="ホームテム ロゴ" class="w-10 h-10" />
+      <div>
+        <div class="text-xl font-bold text-slate-800">ホームテム</div>
+        <div class="text-xs tracking-wide text-slate-500">
+          暮らしをアップデートするベストバイ情報
+        </div>
+      </div>
+    </a>
+
+    <!-- Mobile menu button -->
+    <button
+      id="mobile-menu-btn"
+      class="md:hidden p-2 rounded-md hover:bg-slate-100"
+    >
+      <svg
+        class="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16"
+        ></path>
+      </svg>
+    </button>
+
+    <!-- Desktop navigation -->
+    <nav class="hidden md:flex gap-5 text-sm">
+      <a
+        class="hover:text-sky-600 transition-colors"
+        href="/categories/gadgets.html"
+        >家電・ガジェット</a
+      >
+      <a
+        class="hover:text-sky-600 transition-colors"
+        href="/categories/kitchen.html"
+        >キッチン・収納</a
+      >
+      <a
+        class="hover:text-sky-600 transition-colors"
+        href="/categories/seasonal.html"
+        >季節のおすすめ</a
+      >
+      <a
+        class="hover:text-sky-600 transition-colors"
+        href="/categories/beauty-health.html"
+        >美容・健康</a
+      >
+      <a
+        class="hover:text-sky-600 transition-colors"
+        href="/categories/pet.html"
+        >ペット・生活消耗品</a
+      >
+    </nav>
+  </div>
+
+  <!-- Mobile navigation -->
+  <nav id="mobile-menu" class="md:hidden hidden border-t bg-white">
+    <div class="px-4 py-3 space-y-3">
+      <a
+        class="block hover:text-sky-600 transition-colors"
+        href="/categories/gadgets.html"
+        >家電・ガジェット</a
+      >
+      <a
+        class="block hover:text-sky-600 transition-colors"
+        href="/categories/kitchen.html"
+        >キッチン・収納</a
+      >
+      <a
+        class="block hover:text-sky-600 transition-colors"
+        href="/categories/seasonal.html"
+        >季節のおすすめ</a
+      >
+      <a
+        class="block hover:text-sky-600 transition-colors"
+        href="/categories/beauty-health.html"
+        >美容・健康</a
+      >
+      <a
+        class="block hover:text-sky-600 transition-colors"
+        href="/categories/pet.html"
+        >ペット・生活消耗品</a
+      >
+    </div>
+  </nav>
+</header>

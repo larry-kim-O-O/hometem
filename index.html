@@ -1,93 +1,353 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ホーム｜ホームテム</title>
-<base href="/hometem/">
-<meta name="description" content="Amazonで買ってよかった・失敗しないための比較・レビュー・ランキング。暮らしをアップデートするベストバイ情報をお届けします。">
-<link rel="canonical" href="https://homutemu.example/">
-<link rel="icon" href="/assets/logo.png">
-<meta property="og:title" content="ホーム｜ホームテム">
-<meta property="og:description" content="Amazonで買ってよかった・失敗しないための比較・レビュー・ランキング。暮らしをアップデートするベストバイ情報をお届けします。">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://homutemu.example/">
-<meta property="og:image" content="https://homutemu.example/assets/logo.png">
-<meta name="twitter:card" content="summary_large_image">
-<script src="https://cdn.tailwindcss.com"></script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "ホームテム", "url": "https://homutemu.example/", "logo": "https://homutemu.example/assets/logo.png"}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "ホームテム", "url": "https://homutemu.example", "potentialAction": {"@type": "SearchAction", "target": "https://homutemu.example/?q={search_term_string}", "query-input": "required name=search_term_string"}}</script>
-</head>
-<body class="min-h-screen bg-white text-slate-800">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ホーム｜ホームテム</title>
+    <base href="/hometem/" />
+    <meta
+      name="description"
+      content="Amazonで買ってよかった・失敗しないための比較・レビュー・ランキング。暮らしをアップデートするベストバイ情報をお届けします。"
+    />
+    <link rel="canonical" href="https://homutemu.example/" />
+    <link rel="icon" href="/assets/logo.png" />
 
-<header class="border-b">
-  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between gap-4">
-    <a href="/" class="flex items-center gap-2">
-      <img src="/assets/logo.png" alt="ホームテム ロゴ" class="w-10 h-10">
-      <div>
-        <div class="text-xl font-bold">ホームテム</div>
-        <div class="text-xs tracking-wide text-slate-500">暮らしをアップデートするベストバイ情報</div>
-      </div>
-    </a>
-    <nav class="hidden md:flex gap-5 text-sm">
-      <a class="hover:text-sky-600" href="/categories/gadgets.html">家電・ガジェット</a>
-      <a class="hover:text-sky-600" href="/categories/kitchen.html">キッチン・収納</a>
-      <a class="hover:text-sky-600" href="/categories/seasonal.html">季節のおすすめ</a>
-      <a class="hover:text-sky-600" href="/categories/beauty-health.html">美容・健康</a>
-      <a class="hover:text-sky-600" href="/categories/pet.html">ペット・生活消耗品</a>
-    </nav>
-  </div>
-</header>
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="ホーム｜ホームテム" />
+    <meta
+      property="og:description"
+      content="Amazonで買ってよかった・失敗しないための比較・レビュー・ランキング。暮らしをアップデートするベストバイ情報をお届けします。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://homutemu.example/" />
+    <meta
+      property="og:image"
+      content="https://homutemu.example/assets/logo.png"
+    />
+    <meta property="og:site_name" content="ホームテム" />
 
-<main class="max-w-6xl mx-auto px-4 py-8">
-  <section class="rounded-2xl border p-6 bg-sky-50">
-    <h1 class="text-2xl md:text-3xl font-bold mb-2">暮らしをアップデートするベストバイ</h1>
-    <p class="text-slate-700">レビュー・比較・ランキングで、買って後悔しない選び方を。</p>
-    <div class="text-xs text-slate-600 mt-3">※ 価格・在庫はAmazonのページでご確認ください（当サイトではPA-APIまたは公式ウィジェット以外での価格表示は行いません）。</div>
-  </section>
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ホーム｜ホームテム" />
+    <meta
+      name="twitter:description"
+      content="Amazonで買ってよかった・失敗しないための比較・レビュー・ランキング。暮らしをアップデートするベストバイ情報をお届けします。"
+    />
+    <meta
+      name="twitter:image"
+      content="https://homutemu.example/assets/logo.png"
+    />
 
-  <section class="mt-10 grid md:grid-cols-3 gap-6">
-    <a class="border rounded-xl p-5 hover:shadow" href="/posts/sample-ranking.html">
-      <div class="text-sm text-sky-700 font-semibold">ランキング</div>
-      <h2 class="text-lg font-bold mt-1">2025年 夏の冷感寝具ベスト7</h2>
-      <p class="text-slate-600 mt-2">暑い夜を快適に。タイプ別に失敗しない選び方。</p>
-    </a>
-    <a class="border rounded-xl p-5 hover:shadow" href="/posts/sample-comparison.html">
-      <div class="text-sm text-sky-700 font-semibold">比較</div>
-      <h2 class="text-lg font-bold mt-1">人気ワイヤレスイヤホン 徹底比較</h2>
-      <p class="text-slate-600 mt-2">音質・装着感・ノイズキャンセリングを横並びで比較。</p>
-    </a>
-    <a class="border rounded-xl p-5 hover:shadow" href="/categories/seasonal.html">
-      <div class="text-sm text-sky-700 font-semibold">特集</div>
-      <h2 class="text-lg font-bold mt-1">季節のおすすめ</h2>
-      <p class="text-slate-600 mt-2">花粉症対策・夏の暑さ対策・年末の大掃除まで。</p>
-    </a>
-    <a class="border rounded-xl p-5 hover:shadow" href="/posts/20250816-cool-summer-mat.html">
-      <div class="text-sm text-sky-700 font-semibold">ランキング</div>
-      <h2 class="text-lg font-bold mt-1">2025年 夏の冷感寝具ベスト7</h2>
-      <p class="text-slate-600 mt-2">暑い夜を快適に。タイプ別に失敗しない選び方。</p>
-    </a>
-  </section>
-</main>
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ホームテム",
+        "url": "https://homutemu.example/",
+        "logo": "https://homutemu.example/assets/logo.png",
+        "description": "Amazonで買ってよかった・失敗しないための比較・レビュー・ランキング。暮らしをアップデートするベストバイ情報をお届けします。"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ホームテム",
+        "url": "https://homutemu.example",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://homutemu.example/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
 
-<footer class="mt-16 border-t">
-  <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-slate-600 grid md:grid-cols-3 gap-6">
-    <div>
-      <div class="font-semibold mb-2">ホームテム</div>
-      <p>当サイトはアフィリエイト広告を利用しています。<br>本サイトはAmazonアソシエイトとして、適格販売により収入を得ています。</p>
-    </div>
-    <div class="flex flex-col gap-2">
-      <a class="hover:text-sky-600" href="/policy/disclosure.html">アフィリエイト開示</a>
-      <a class="hover:text-sky-600" href="/policy/privacy.html">プライバシーポリシー</a>
-      <a class="hover:text-sky-600" href="/about.html">運営者情報</a>
-      <a class="hover:text-sky-600" href="/contact.html">お問い合わせ</a>
-    </div>
-    <div class="text-slate-500">
-      <div>© 2025 ホームテム. All rights reserved.</div>
-      <div class="text-xs mt-2">価格・在庫はAmazonの公式情報をご確認ください。当サイトでは価格情報のスクリーンショットや手動入力による掲載は行いません。</div>
-    </div>
-  </div>
-</footer>
-<script src="/assets/main.js"></script>
-</body>
+    <!-- Styles -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/main.css" />
+  </head>
+  <body class="min-h-screen bg-white text-slate-800">
+    <!-- Include Header -->
+    <!-- #include file="/partials/header.html" -->
+
+    <main class="max-w-6xl mx-auto px-4 py-8">
+      <!-- Hero Section -->
+      <section
+        class="rounded-2xl border p-8 bg-gradient-to-br from-sky-50 to-blue-50 mb-12"
+      >
+        <div class="text-center max-w-3xl mx-auto">
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
+            暮らしをアップデートするベストバイ
+          </h1>
+          <p class="text-lg text-slate-700 mb-6">
+            レビュー・比較・ランキングで、買って後悔しない選び方を。
+          </p>
+          <div
+            class="bg-white/80 backdrop-blur-sm rounded-lg p-4 text-sm text-slate-600"
+          >
+            <p class="font-medium">
+              ※ 価格・在庫はAmazonのページでご確認ください
+            </p>
+            <p class="text-xs mt-1">
+              当サイトではPA-APIまたは公式ウィジェット以外での価格表示は行いません。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Categories -->
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold text-slate-800 mb-6">
+          カテゴリー別おすすめ
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <a
+            class="group border rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+            href="/categories/gadgets.html"
+          >
+            <div
+              class="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-sky-200 transition-colors"
+            >
+              <svg
+                class="w-6 h-6 text-sky-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-slate-800 mb-2">
+              家電・ガジェット
+            </h3>
+            <p class="text-slate-600 text-sm">
+              スマートフォン、PC、家電製品の比較・レビュー
+            </p>
+          </a>
+
+          <a
+            class="group border rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+            href="/categories/kitchen.html"
+          >
+            <div
+              class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-emerald-200 transition-colors"
+            >
+              <svg
+                class="w-6 h-6 text-emerald-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8 5a2 2 0 012-2h4a2 2 0 012 2v2H8V5z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-slate-800 mb-2">
+              キッチン・収納
+            </h3>
+            <p class="text-slate-600 text-sm">
+              調理器具、収納用品、インテリア小物
+            </p>
+          </a>
+
+          <a
+            class="group border rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+            href="/categories/seasonal.html"
+          >
+            <div
+              class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange-200 transition-colors"
+            >
+              <svg
+                class="w-6 h-6 text-orange-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-slate-800 mb-2">
+              季節のおすすめ
+            </h3>
+            <p class="text-slate-600 text-sm">
+              花粉症対策、夏の暑さ対策、年末の大掃除
+            </p>
+          </a>
+
+          <a
+            class="group border rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+            href="/categories/beauty-health.html"
+          >
+            <div
+              class="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-pink-200 transition-colors"
+            >
+              <svg
+                class="w-6 h-6 text-pink-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-slate-800 mb-2">美容・健康</h3>
+            <p class="text-slate-600 text-sm">
+              スキンケア、サプリメント、健康器具
+            </p>
+          </a>
+
+          <a
+            class="group border rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+            href="/categories/pet.html"
+          >
+            <div
+              class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-purple-200 transition-colors"
+            >
+              <svg
+                class="w-6 h-6 text-purple-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-slate-800 mb-2">
+              ペット・生活消耗品
+            </h3>
+            <p class="text-slate-600 text-sm">
+              ペット用品、日用品、消耗品の比較
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <!-- Latest Articles -->
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold text-slate-800 mb-6">最新記事</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <a
+            class="group border rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+            href="/posts/sample-ranking.html"
+          >
+            <div class="text-sm text-sky-700 font-semibold mb-2">
+              ランキング
+            </div>
+            <h3
+              class="text-lg font-bold text-slate-800 mb-2 group-hover:text-sky-600 transition-colors"
+            >
+              2025年 夏の冷感寝具ベスト7
+            </h3>
+            <p class="text-slate-600 text-sm mb-4">
+              暑い夜を快適に。タイプ別に失敗しない選び方。
+            </p>
+            <div class="flex items-center text-xs text-slate-500">
+              <span>2025.01.15</span>
+            </div>
+          </a>
+
+          <a
+            class="group border rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+            href="/posts/sample-comparison.html"
+          >
+            <div class="text-sm text-emerald-700 font-semibold mb-2">比較</div>
+            <h3
+              class="text-lg font-bold text-slate-800 mb-2 group-hover:text-emerald-600 transition-colors"
+            >
+              人気ワイヤレスイヤホン 徹底比較
+            </h3>
+            <p class="text-slate-600 text-sm mb-4">
+              音質・装着感・ノイズキャンセリングを横並びで比較。
+            </p>
+            <div class="flex items-center text-xs text-slate-500">
+              <span>2025.01.10</span>
+            </div>
+          </a>
+
+          <a
+            class="group border rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+            href="/posts/20250816-cool-summer-mat.html"
+          >
+            <div class="text-sm text-orange-700 font-semibold mb-2">
+              レビュー
+            </div>
+            <h3
+              class="text-lg font-bold text-slate-800 mb-2 group-hover:text-orange-600 transition-colors"
+            >
+              冷感マット 実際に使ってみた
+            </h3>
+            <p class="text-slate-600 text-sm mb-4">
+              夏の暑さ対策に効果的な冷感マットの実体験レビュー。
+            </p>
+            <div class="flex items-center text-xs text-slate-500">
+              <span>2025.01.05</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- Newsletter Signup -->
+      <section
+        class="bg-gradient-to-r from-sky-50 to-blue-50 rounded-2xl p-8 text-center"
+      >
+        <h2 class="text-2xl font-bold text-slate-800 mb-4">最新情報をお届け</h2>
+        <p class="text-slate-700 mb-6">
+          新しい商品情報やお得な情報をいち早くお届けします。
+        </p>
+        <div class="max-w-md mx-auto">
+          <div class="flex gap-2">
+            <input
+              type="email"
+              placeholder="メールアドレス"
+              class="flex-1 px-4 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-500"
+            />
+            <button
+              class="px-6 py-2 bg-sky-600 text-white rounded-md hover:bg-sky-700 transition-colors"
+            >
+              登録
+            </button>
+          </div>
+          <p class="text-xs text-slate-500 mt-2">
+            プライバシーポリシーに同意の上、ご登録ください。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Include Footer -->
+    <!-- #include file="/partials/footer.html" -->
+
+    <script src="/assets/main.js"></script>
+  </body>
 </html>

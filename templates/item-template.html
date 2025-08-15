@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><!-- PRODUCT_TITLE -->｜ホームテム</title>
+    <base href="/hometem/" />
+    <meta name="description" content="<!-- PRODUCT_DESCRIPTION -->" />
+    <link
+      rel="canonical"
+      href="https://homutemu.example/products/<!-- PRODUCT_SLUG -->/"
+    />
+    <link rel="icon" href="/assets/logo.png" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="<!-- PRODUCT_TITLE -->｜ホームテム" />
+    <meta property="og:description" content="<!-- PRODUCT_DESCRIPTION -->" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://homutemu.example/products/<!-- PRODUCT_SLUG -->/"
+    />
+    <meta property="og:image" content="<!-- PRODUCT_IMAGE_URL -->" />
+    <meta property="og:site_name" content="ホームテム" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="<!-- PRODUCT_TITLE -->｜ホームテム" />
+    <meta name="twitter:description" content="<!-- PRODUCT_DESCRIPTION -->" />
+    <meta name="twitter:image" content="<!-- PRODUCT_IMAGE_URL -->" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "<!-- PRODUCT_TITLE -->",
+        "description": "<!-- PRODUCT_DESCRIPTION -->",
+        "image": "<!-- PRODUCT_IMAGE_URL -->",
+        "offers": {
+          "@type": "Offer",
+          "url": "<!-- AMAZON_AFFILIATE_LINK -->",
+          "availability": "https://schema.org/InStock"
+        },
+        "brand": {
+          "@type": "Brand",
+          "name": "<!-- PRODUCT_BRAND -->"
+        }
+      }
+    </script>
+
+    <!-- Styles -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/main.css" />
+  </head>
+  <body class="min-h-screen bg-white text-slate-800">
+    <!-- Include Header -->
+    <!-- #include file="/partials/header.html" -->
+
+    <main class="max-w-4xl mx-auto px-4 py-8">
+      <!-- Breadcrumb -->
+      <nav class="text-sm text-slate-500 mb-4">
+        <a href="/" class="hover:text-sky-600">ホーム</a> ›
+        <a
+          href="/categories/<!-- PRODUCT_CATEGORY -->.html"
+          class="hover:text-sky-600"
+          ><!-- CATEGORY_NAME --></a
+        >
+        ›
+        <!-- PRODUCT_TITLE -->
+      </nav>
+
+      <!-- Product Header -->
+      <header class="mb-8">
+        <h1 class="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
+          <!-- PRODUCT_TITLE -->
+        </h1>
+        <p class="text-lg text-slate-700 leading-relaxed">
+          <!-- PRODUCT_DESCRIPTION -->
+        </p>
+      </header>
+
+      <!-- Product Image and Info -->
+      <div class="grid md:grid-cols-2 gap-8 mb-8">
+        <!-- Product Image -->
+        <div class="space-y-4">
+          <img
+            src="<!-- PRODUCT_IMAGE_URL -->"
+            alt="<!-- PRODUCT_TITLE -->"
+            class="w-full rounded-lg shadow-md"
+            loading="lazy"
+          />
+
+          <!-- Additional Images (if any) -->
+          <!-- PRODUCT_ADDITIONAL_IMAGES -->
+        </div>
+
+        <!-- Product Details -->
+        <div class="space-y-6">
+          <!-- Price and Rating -->
+          <div class="bg-slate-50 p-6 rounded-lg">
+            <div class="flex items-center justify-between mb-4">
+              <h2 class="text-xl font-bold text-slate-800">商品情報</h2>
+              <span class="text-sm text-slate-500"
+                >※価格は変動する場合があります</span
+              >
+            </div>
+
+            <!-- Product Features -->
+            <ul class="space-y-2 text-slate-700">
+              <!-- PRODUCT_FEATURES -->
+            </ul>
+          </div>
+
+          <!-- Amazon Link -->
+          <div class="bg-amber-50 border border-amber-200 p-4 rounded-lg">
+            <p class="text-amber-800 text-sm mb-3">
+              <strong>価格・在庫はAmazonのページでご確認ください。</strong
+              ><br />
+              当ページではPA-APIまたは公式ウィジェット以外の価格表示は行いません。
+            </p>
+            <a
+              href="<!-- AMAZON_AFFILIATE_LINK -->"
+              rel="sponsored nofollow"
+              class="btn-primary inline-block w-full text-center"
+            >
+              Amazonで詳細を見る
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Content -->
+      <article class="prose prose-slate max-w-none">
+        <!-- PRODUCT_CONTENT -->
+      </article>
+
+      <!-- Related Products -->
+      <section class="mt-12 border-t pt-8">
+        <h2 class="text-xl font-bold text-slate-800 mb-6">関連商品</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- RELATED_PRODUCTS -->
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="mt-12 border-t pt-8">
+        <h2 class="text-xl font-bold text-slate-800 mb-6">よくある質問</h2>
+        <div class="space-y-4">
+          <!-- PRODUCT_FAQ -->
+        </div>
+      </section>
+
+      <!-- Disclaimer -->
+      <section class="mt-12 border-t pt-8">
+        <h2 class="text-xl font-bold text-slate-800 mb-4">免責・ポリシー</h2>
+        <div class="bg-slate-50 p-6 rounded-lg text-sm text-slate-700">
+          <p class="mb-3">
+            当サイトはAmazonアソシエイトの規約に従い、価格情報のスクリーンショット・手動入力を行いません。
+            リンクは特別リンク（アフィリエイトリンク）を含みます。
+          </p>
+          <p>
+            商品の詳細情報、価格、在庫状況は必ずAmazonの公式ページでご確認ください。
+            当サイトの情報は参考情報であり、購入の最終判断はお客様ご自身でお願いいたします。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Include Footer -->
+    <!-- #include file="/partials/footer.html" -->
+
+    <script src="/assets/main.js"></script>
+  </body>
+</html>

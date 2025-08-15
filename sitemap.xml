@@ -1,22 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://larry-kim-o-o.github.io/hometem/</loc><lastmod>2025-08-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://larry-kim-o-o.github.io/hometem/categories/gadgets.html</loc><lastmod>2025-08-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://larry-kim-o-o.github.io/hometem/categories/kitchen.html</loc><lastmod>2025-08-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://larry-kim-o-o.github.io/hometem/categories/seasonal.html</loc><lastmod>2025-08-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://larry-kim-o-o.github.io/hometem/categories/beauty-health.html</loc><lastmod>2025-08-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://larry-kim-o-o.github.io/hometem/categories/pet.html</loc><lastmod>2025-08-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://larry-kim-o-o.github.io/hometem/posts/sample-ranking.html</loc><lastmod>2025-08-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://larry-kim-o-o.github.io/hometem/posts/sample-comparison.html</loc><lastmod>2025-08-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://larry-kim-o-o.github.io/hometem/policy/disclosure.html</loc><lastmod>2025-08-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://larry-kim-o-o.github.io/hometem/policy/privacy.html</loc><lastmod>2025-08-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://larry-kim-o-o.github.io/hometem/about.html</loc><lastmod>2025-08-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://larry-kim-o-o.github.io/hometem/contact.html</loc><lastmod>2025-08-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url>
-  <loc>https://larry-kim-o-o.github.io/hometem/posts/20250816-cool-summer-mat.html</loc>
-  <lastmod>2025-08-16</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.7</priority>
-</url>
-
+  <url>
+    <loc>https://homutemu.example/about</loc>
+    <lastmod>2025-08-15T16:39:19.427Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://homutemu.example/categories/beauty-health</loc>
+    <lastmod>2025-08-15T16:39:19.428Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://homutemu.example/categories/gadgets</loc>
+    <lastmod>2025-08-15T16:39:19.431Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://homutemu.example/categories/kitchen</loc>
+    <lastmod>2025-08-15T16:39:19.432Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://homutemu.example/categories/pet</loc>
+    <lastmod>2025-08-15T16:39:19.435Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://homutemu.example/categories/seasonal</loc>
+    <lastmod>2025-08-15T16:39:19.438Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://homutemu.example/contact</loc>
+    <lastmod>2025-08-15T16:39:19.439Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://homutemu.example/</loc>
+    <lastmod>2025-08-15T16:49:06.114Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://homutemu.example/policy/disclosure</loc>
+    <lastmod>2025-08-15T16:39:19.440Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://homutemu.example/policy/privacy</loc>
+    <lastmod>2025-08-15T16:39:19.442Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://homutemu.example/posts/20250816-cool-summer-mat</loc>
+    <lastmod>2025-08-15T16:39:19.443Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://homutemu.example/posts/sample-comparison</loc>
+    <lastmod>2025-08-15T16:39:19.445Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://homutemu.example/posts/sample-ranking</loc>
+    <lastmod>2025-08-15T16:39:19.447Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://homutemu.example/products/cool-summer-mat/</loc>
+    <lastmod>2025-08-15T16:50:20.294Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
